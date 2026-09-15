@@ -3,7 +3,7 @@ import "./App.css";
 
 const API =
   import.meta.env.VITE_API_URL ||
-  "https://YOUR-RENDER-URL.onrender.com";
+  "https://news-feed-0r6l.onrender.com";
 
 function App() {
   const [token, setToken] = useState(
